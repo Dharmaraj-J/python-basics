@@ -1,6 +1,6 @@
 
 # open a file
-f = open('myfile.txt','r')
+f = open('text/myfile.txt','r')
 
 # reading file
 # content = f.read()
@@ -11,7 +11,7 @@ f = open('myfile.txt','r')
 
 # it's another mehod to open file 
 # the file is automatically close
-with open('abc.txt','w') as f2:
+with open('text/abc.txt','w') as f2:
   for data in f:
     f2.write(data)
 
